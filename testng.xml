@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Signup and Account Info Tests">
+    <test name="Signup and Account Info">
+        <classes>
+
+            <class name="tests.FullSenarioTest"/>
+
+
+
+        </classes>
+    </test>
+</suite>
