@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out code...'
-                git scm: git(url: 'https://github.com/Asmaasaida/Example_POM_automation.git', // Replace with your repo URL
+                git url: git(url: 'https://github.com/Asmaasaida/Example_POM_automation.git', // Replace with your repo URL
                                credentialsId: 'Asmaasaida', // Replace with your Jenkins credential ID
                                branch: 'main') // Adjust branch if needed
             }
